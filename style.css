@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-position: center-top;
+    margin: 0;
+}
+
+.header,
+.intro,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    gap: 1em;
+    padding: 10px;
+}
+
+.header img {
+    margin-right: auto;
+}
+
+.header button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 3em;
+}
+
+
+.intro .text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.intro .text p {
+    margin: 8px;
+}
+
+.intro .text button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.information {
+    text-align: center;
+}
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.group-images {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    align-items: baseline;
+}
+.info-images {
+    flex: 1 1 0;
+}
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.header,
+.intro,
+.group-images,
+.quote,
+.footer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
